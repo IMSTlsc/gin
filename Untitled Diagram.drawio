@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T04:12:26.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="963BrQL84ZLpV1-3rwNG" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T04:15:42.097Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xLr3ghK7SSMszgFxA1R1" version="17.4.6" type="github">
   <diagram id="uobTdvGDPKRyvpmwHlBW" name="Page-1">
-    <mxGraphModel dx="1656" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1039" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CeL9gRLWSD85e0RHvUJz-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="5" y="650" width="1005" height="400" as="geometry" />
+          <mxGeometry x="2.5" y="660" width="1165" height="390" as="geometry" />
         </mxCell>
         <mxCell id="CeL9gRLWSD85e0RHvUJz-34" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="632.5" y="680" width="207.5" height="330" as="geometry" />
@@ -303,8 +303,11 @@
         <mxCell id="CeL9gRLWSD85e0RHvUJz-24" value="Task为Waiting&lt;br&gt;且&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;notSync&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="676.5" y="815" width="137" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="CeL9gRLWSD85e0RHvUJz-49" value="qTask" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CeL9gRLWSD85e0RHvUJz-27" target="CeL9gRLWSD85e0RHvUJz-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CeL9gRLWSD85e0RHvUJz-27" value="ruleengine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="822.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="890" y="822.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CeL9gRLWSD85e0RHvUJz-38" value="产生TimingTask" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="35" y="680" width="105" height="30" as="geometry" />
@@ -314,6 +317,9 @@
         </mxCell>
         <mxCell id="CeL9gRLWSD85e0RHvUJz-40" value="Task同步Ruleengine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="632.5" y="680" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CeL9gRLWSD85e0RHvUJz-48" value="cron.AutoAssign" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="822.5" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
